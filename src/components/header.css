@@ -1,0 +1,29 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap');
+
+.header {
+    display: flex;
+    grid-area: header;
+    width: 100vw;
+    height: 100px;
+    background-color: #E2A021;
+    overflow: hidden;
+    justify-content: center;
+    font-family: 'Bubblegum Sans', cursive;
+    
+}
+
+.logo-name  img {
+    width: 100px;
+}
+
+.logo-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.brand-name{
+  line-height: 0.5;
+}

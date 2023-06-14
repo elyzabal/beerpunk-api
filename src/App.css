@@ -1,0 +1,21 @@
+.card{
+  background-color: #ffff;
+    color: black;
+    width: 200px;
+    margin: auto;
+    text-align: center;
+    margin: 10px;
+    box-sizing: border-box;
+    position: relative;
+    box-shadow: 0 0 1px black;
+}
+
+.card-body{
+  padding: 15px 0;
+}
+.image-card > img {
+    width: auto;
+    height: 250px;
+    object-fit: cover;
+    margin-top: 15px;
+}

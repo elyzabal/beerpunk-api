@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap');
+
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  background-image: url("beer-foam.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+
+  font-family: 'Bubblegum Sans', cursive;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+#root{
+  width: 100%;
+  max-height: 100vh;
+  height: auto;
+  display: grid;
+  grid-template-areas:
+  "header"
+  "container"
+  "container"
+  "container"
+  "footer";
+  justify-content: center;
+  overflow-x: hidden;
+}
+
+
+
+
